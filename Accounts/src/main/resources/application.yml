@@ -1,0 +1,36 @@
+server:
+  port: 8080
+# H2 Database Configuration
+spring:
+  application:
+    name: "accounts"
+  config:
+    import: "optional:configserver:http://localhost:8071/"
+  profiles:
+    active: "prod"
+  datasource:
+    url: jdbc:mysql://localhost:3306/accountsdb
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format-sql: true
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+
+
+
+
+
+
