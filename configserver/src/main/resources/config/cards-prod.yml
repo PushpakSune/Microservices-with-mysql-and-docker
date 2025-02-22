@@ -1,0 +1,12 @@
+
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to pbank cards related prod APIs "
+  contactDetails:
+    name: "Bhuvaneshwar Kumar - Product Owner"
+    email: "Bhuvaneshwar@pbank.com"
+  onCallSupport:
+    - (999) 555-1234
+    - (999) 523-1345

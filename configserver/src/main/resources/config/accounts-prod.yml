@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to pbank accounts related prod APIs "
+  contactDetails:
+    name: "Dale Stayn - Product Owner"
+    email: "dale@pbank.com"
+  onCallSupport:
+    - (999) 555-1234
+    - (999) 523-1345

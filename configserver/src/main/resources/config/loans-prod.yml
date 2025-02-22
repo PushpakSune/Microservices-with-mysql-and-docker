@@ -1,0 +1,12 @@
+#
+#build:
+#  version: "1.0"
+#
+#loans:
+#  message: "Welcome to pbank loan related prod APIs "
+#  contactDetails:
+#    name: "James Anderson - Product Owner"
+#    email: "james@pbank.com"
+#  onCallSupport:
+#    - (999) 555-1234
+#    - (999) 523-1345
